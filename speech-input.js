@@ -35,6 +35,7 @@
 		var oldPlaceholder = null;
 		var recognition = new webkitSpeechRecognition();
 		recognition.continuous = true;
+		recognition.lang = "es";
 
 		function restartTimer() {
 			timeout = setTimeout(function() {
